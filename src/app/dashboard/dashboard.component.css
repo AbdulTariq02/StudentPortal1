@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* heading  */
+.heading{
+    background: linear-gradient( #318aff, #3790cc,#1e90ee,#318aff);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    
+    color: white;
+ 
+}
+

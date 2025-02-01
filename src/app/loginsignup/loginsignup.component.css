@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* heading  */
+.heading{
+    background: linear-gradient( #318aff, #000000,#000000,#318aff);
+    padding: 10px 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: yellow;
+
+}
+.heading h1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+/* all forms  */
+.loginsignup-container{
+    max-width: 500px;
+    margin: 30px auto 10px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.loginsignup-container h2{
+    color: #318aff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    font-size: 35px;
+    margin-top: 0px;
+    
+}
+.form-group{
+    margin-bottom: 20px;
+    margin-left: 8%;
+
+}
+.form-group input{
+    outline: none;
+    width: 90%;
+    padding: 5px 0px 5px 4px;
+
+    border-radius: 6px;
+    border: 2px solid #318aff;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    
+    
+}
+#pass{
+    border: none;
+
+}
+.input-container{
+    outline: none;
+    width: 90%;
+    padding: 1px 0px 1px 1px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #318aff;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+
+ ::placeholder{
+ color: rgb(177, 177, 177);
+ padding-left: 4%;
+}
+
+button {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    background: linear-gradient(#318aff, #000000);
+    transition: 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background: linear-gradient( #000000 , #318aff);
+    box-shadow: 0 0 30px rgba(230, 178, 178, 0.1);
+
+}
+p{
+    margin-top: 8px;
+    text-align: center;
+    /* cursor: pointer; */
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.highlighted{
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.highlighted:hover{
+
+    text-decoration: underline;
+    color: #318aff;
+}
+::ng-deep .mat-snack-bar-container {
+    display: flex !important;
+    justify-content: center !important;  /* Horizontally center the snackbar */
+    align-items: center !important;      /* Vertically center the snackbar */
+    position: fixed !important;          /* Fix the snackbar's position on the screen */
+    bottom: 20px !important;             /* Position it near the bottom of the screen */
+    left: 50% !important;                /* Horizontally center */
+    transform: translateX(-50%) !important; /* Center snackbar horizontally */
+    background-color: green !important;  /* Snackbar background color */
+    color: white !important;             /* Text color */
+    font-weight: bold !important;        /* Bold text */
+    border-radius: 8px !important;       /* Slightly more rounded corners */
+    padding: 12px 24px !important;       /* Extra padding for better appearance */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;  /* Adding a subtle shadow */
+    font-family: 'Arial', sans-serif !important; /* Better font family */
+  }
+  
+  ::ng-deep .mat-snack-bar-container .mat-simple-snackbar {
+    font-size: 14px !important;          /* Bigger and more readable font size */
+    text-align: center !important;       /* Ensure the text is center aligned */
+    letter-spacing: 1px !important;      /* Slightly increased letter spacing for better look */
+    text-transform: capitalize !important; /* Text in uppercase */
+  }
+  ::ng-deep .mat-snack-bar-container.error-snackbar {
+    background-color: red !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  /* input eye  */
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+   
+  }
+  #password{
+    border: none;
+    /* background-color: rgba(224, 209, 209, 0.1);
+    ; */
+  }
+
+ 

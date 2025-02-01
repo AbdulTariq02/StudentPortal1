@@ -1,0 +1,42 @@
+#btn1 i{
+    color: green;
+}
+#btn2 i{
+    color: red;
+}
+
+
+
+
+  #toogle{
+padding-right: 40px;
+margin-top: 20px;
+font-size: x-large;
+/* padding-bottom: 20px; */
+  }
+  nav{
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient( #318aff, #3790cc,#1e90ee,#318aff);
+  }
+ 
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* heading  */
+.heading{
+  width: 300px;
+    background: linear-gradient( #318aff, #3790cc,#1e90ee,#318aff);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    
+    color: white;
+ 
+}
+  

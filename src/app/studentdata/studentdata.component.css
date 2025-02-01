@@ -1,0 +1,302 @@
+
+        /* Table Styling */
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Header */
+        th {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px;
+            font-weight: bolder;
+        }
+
+        /* Specific width for S.No column */
+        th:first-child, td:first-child {
+            width: 50px;  /* Adjust width */
+            min-width: 50px;
+        }
+        th:nth-child(2), td:nth-child(2) {
+            width: 120px;  /* Adjust width */
+            min-width: 200px;
+            word-break: break-word; /* Prevent overflow */
+        }
+        th:nth-child(3), td:nth-child(3) {
+            width: 120px;  /* Adjust width */
+            min-width: 20px;
+            word-break: break-word; /* Prevent overflow */
+        }
+        th:nth-child(4), td:nth-child(4) {
+            width: 120px;  /* Adjust width */
+            min-width: 250px;
+            word-break: break-word; /* Prevent overflow */
+        }
+
+        /* Table Rows */
+        td {
+            border: 2px solid #ddd;
+            padding: 10px;
+        }
+
+
+        /* this css is form module  */
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        
+        /* heading  */
+        /* .heading{
+            background: linear-gradient( #318aff, #000000,#000000,#318aff);
+            padding: 10px 20px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+            color: yellow;
+        
+        } */
+        
+        /* all forms  */
+        .loginsignup-container{
+            max-width: 500px;
+            margin: 30px auto 10px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+        }
+        .loginsignup-container h2{
+            color: #318aff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: fantasy;
+            font-size: 35px;
+            margin-top: 0px;
+            
+        }
+        .form-group{
+            margin-bottom: 20px;
+            margin-left: 8%;
+        
+        }
+        .form-group input{
+            outline: none;
+            width: 90%;
+            padding: 5px 0px 5px 4px;
+        
+            border-radius: 6px;
+            border: 2px solid #318aff;
+            background-color: #f5f5f5;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+            
+            
+        }
+        #pass{
+            border: none;
+        
+        }
+        .input-container{
+            outline: none;
+            width: 90%;
+            padding: 1px 0px 1px 1px;
+            display: flex;
+            cursor: pointer;
+            border-radius: 6px;
+            border: 2px solid #318aff;
+            background-color: #f5f5f5;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+            
+        }
+        
+        
+         ::placeholder{
+         color: rgb(177, 177, 177);
+         padding-left: 4%;
+        }
+        
+        button #ad {
+            width: 10%;
+           
+            padding: 5px;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 17px;
+            background: linear-gradient(#318aff, #000000);
+            transition: 0.5s ease;
+            display: block;
+            margin: 0 auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            
+        
+        }
+        
+        
+        
+        
+        ::ng-deep .mat-snack-bar-container {
+            display: flex !important;
+            justify-content: center !important;  /* Horizontally center the snackbar */
+            align-items: center !important;      /* Vertically center the snackbar */
+            position: fixed !important;          /* Fix the snackbar's position on the screen */
+            bottom: 20px !important;             /* Position it near the bottom of the screen */
+            left: 50% !important;                /* Horizontally center */
+            transform: translateX(-50%) !important; /* Center snackbar horizontally */
+            background-color: green !important;  /* Snackbar background color */
+            color: white !important;             /* Text color */
+            font-weight: bold !important;        /* Bold text */
+            border-radius: 8px !important;       /* Slightly more rounded corners */
+            padding: 12px 24px !important;       /* Extra padding for better appearance */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;  /* Adding a subtle shadow */
+            font-family: 'Arial', sans-serif !important; /* Better font family */
+          }
+          
+          ::ng-deep .mat-snack-bar-container .mat-simple-snackbar {
+            font-size: 14px !important;          /* Bigger and more readable font size */
+            text-align: center !important;       /* Ensure the text is center aligned */
+            letter-spacing: 1px !important;      /* Slightly increased letter spacing for better look */
+            text-transform: capitalize !important; /* Text in uppercase */
+          }
+          ::ng-deep .mat-snack-bar-container.error-snackbar {
+            background-color: red !important;
+            color: white !important;
+            font-weight: bold !important;
+            border-radius: 8px !important;
+            padding: 12px 24px !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+          }
+          
+        #add{
+            width: 100px;
+        }
+        
+         .container{
+            margin-top: 10px  ;
+            border: none;
+         }
+          
+          /* edit btn */
+          .btnhead{
+            display: flex;
+            gap: 40px;
+            margin-left: 50px;
+          }
+          
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #ff3456;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    transition-duration: 0.3s;
+  }
+  
+  .svg {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    fill: white;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover {
+    color: transparent;
+  }
+  
+  .Btn:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 0px white;
+  }
+  .Btn2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #4f5af7;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    transition-duration: 0.3s;
+  }
+  
+  ::ng-deep .mat-snack-bar-container {
+    display: flex !important;
+    justify-content: center !important;  /* Horizontally center the snackbar */
+    align-items: center !important;      /* Vertically center the snackbar */
+    position: fixed !important;          /* Fix the snackbar's position on the screen */
+    bottom: 20px !important;             /* Position it near the bottom of the screen */
+    left: 50% !important;                /* Horizontally center */
+    transform: translateX(-50%) !important; /* Center snackbar horizontally */
+    background-color: green !important;  /* Snackbar background color */
+    color: white !important;             /* Text color */
+    font-weight: bold !important;        /* Bold text */
+    border-radius: 8px !important;       /* Slightly more rounded corners */
+    padding: 12px 24px !important;       /* Extra padding for better appearance */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;  /* Adding a subtle shadow */
+    font-family: 'Arial', sans-serif !important; /* Better font family */
+  }
+  
+  ::ng-deep .mat-snack-bar-container .mat-simple-snackbar {
+    font-size: 14px !important;          /* Bigger and more readable font size */
+    text-align: center !important;       /* Ensure the text is center aligned */
+    letter-spacing: 1px !important;      /* Slightly increased letter spacing for better look */
+    text-transform: capitalize !important; /* Text in uppercase */
+  }
+  ::ng-deep .mat-snack-bar-container.error-snackbar {
+    background-color: red !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  
+  
+         
+      
+  

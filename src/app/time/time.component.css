@@ -1,0 +1,45 @@
+#header {
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    position: fixed;
+   
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    margin-right: 450px;
+    margin-left: 380px;
+    background-color: rgb(61, 118, 223);
+   
+  }
+  
+
+  
+  h2 {
+   
+    font-size: 5px;
+    letter-spacing: 1px;
+  }
+  
+  #day {
+    font-size: 22px;
+    color: white;
+  }
+  
+  #date {
+    font-size: 18px;
+    color: white;
+  }
+  
+  
+  #time {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  

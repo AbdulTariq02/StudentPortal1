@@ -1,0 +1,71 @@
+<div class="heading d-flex justify-content-between align-items-center">
+    <h1 class="head">{{ value === 'register'  ? 'Registration Form' : 'Login Form'}}</h1>
+    <div class="form-check form-switch" id="toogle" (click)="toggle2()">
+        <span [innerHTML]="color ? sunIcon : moonIcon" class="d-flex justify-content-end text-white"></span>
+    </div>
+</div>
+
+
+<div class="loginsignup-container">
+    <!-- REGISTER FORM -->
+    <form *ngIf="value === 'register'">
+        <h2>REGISTER</h2>
+        <div class="form-group">
+            <input type="search" name="name" placeholder="Name" [(ngModel)]="registerObj.name" required  maxlength="20" #name = "ngModel" >
+            <p *ngIf="name.invalid && name.touched " style="color: red; font-weight: bolder; display: flex; text-align: start;">Enter your name  </p>
+        </div>
+  
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" [(ngModel)]="registerObj.email" required maxlength="" #email="ngModel">
+            <p *ngIf="email.invalid && email.touched " style="color: red; font-weight: bolder; display: flex; text-align: start;">Enter your email </p>
+
+        </div>
+        <div class="form-group">
+            <div class="input-container">
+                <input [type]="inputType" id="password" name="password" placeholder="Enter your password" [(ngModel)]="registerObj.passward"  required maxlength="20" #passward="ngModel">
+                <i class="eye-icon " (click)="toggleInput()">👁️‍🗨️</i>
+              </div>  
+              <p *ngIf="passward.invalid && passward.touched " style="color: red; font-weight: bolder; display: flex; text-align: start;">Enter your password
+            </p>
+  
+                </div>
+        <button (click)="registerform()">Register</button>
+
+        <p (click)="toggle('login')">
+            Already have an account ? <span class="highlighted" >LOGIN</span>
+        </p>
+    </form>
+    
+    <!-- LOGIN FORM -->
+    <form *ngIf="value === 'login'">
+        <h2>LOGIN</h2>
+
+        <div class="form-group">
+            <input type="email" name="email"  placeholder="Email" [(ngModel)]="loginObj.email" required maxlength="" #email="ngModel">
+            <p *ngIf="email.invalid && email.touched " style="color: red; font-weight: bolder; display: flex; text-align: start;">Enter your password
+
+        </div>
+        <div class="form-group">
+            <!-- <div class="input-container">
+                <input id="pass" [type]="inputType" name="password" placeholder="Password" [(ngModel)]="loginObj.passward">
+                <h6 id="icon" (click)="toggleInput()">👁️‍🗨️</h6>
+                
+              </div> -->
+              <div class="input-container">
+                <input [type]="inputType" id="password" name="password" placeholder="Enter your password" [(ngModel)]="loginObj.passward" required maxlength="20" #passward="ngModel">
+                <i class="eye-icon " (click)="toggleInput()">👁️‍🗨️</i>
+              </div>
+              <p *ngIf="passward.invalid && passward.touched " style="color: red; font-weight: bolder; display: flex; text-align: start;">Enter your password
+
+              
+        </div>
+        <button type="submit" (click)="loginform()" >Login</button>
+        <p (click)="toggle('register')">
+            Don't have an account ? <span class="highlighted">REGISTER</span>
+        </p>
+    </form>
+
+</div>
+
+
+
